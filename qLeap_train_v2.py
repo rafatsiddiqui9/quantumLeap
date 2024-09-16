@@ -1,5 +1,9 @@
 # !pip install -U -q jupyter ipywidgets nbformat pandas numpy bitsandbytes wandb torch transformers datasets tokenizers accelerate spacy nltk peft deepspeed xformers
 import torch
+import subprocess
+from axolotl.core.trainer import AxolotlTrainer
+from axolotl.core.train_config import AxolotlTrainingArguments
+# ... rest of the code ...
 print(torch.cuda.is_available())
 print(torch.version.cuda)
 # # Check if CUDA is installed
@@ -19,9 +23,10 @@ print(torch.version.cuda)
 
 # # Retry installing DeepSpeed
 # pip install deepspeed
-# login to hugging face
-!huggingface-cli login --token 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 --add-to-git-credential
-!lscpu && free -h && df -h && nvidia-smi
+# login to hugging face using subprocess
+subprocess.run(['huggingface-cli', 'login', '--token', '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', '--add-to-git-credential'])
+
+# !lscpu && free -h && df -h && nvidia-smi
 # ChatGPT optimized script
 import os
 import re
@@ -259,35 +264,31 @@ chunks
 # ----------------------------- #
 
 # Already handled above based on --monitor_gpu flag
-
 # ----------------------------- #
-# Part 6: Create and Tokenize Dataset
+# Part 6: Create and Tokenize Dataset using Axolotl
 # ----------------------------- #
 
-# if the clean_text variable is not defined, then we need to load the clean_text from the file
-if not hasattr(globals(), 'clean_text'):
-    with open('psychology_of_unconscious.txt', 'r') as f:
-        clean_text = f.read()
-        
+from axolotl import AxolotlTrainer, AxolotlTrainingArguments
+from axolotl.tokenization_utils import AutoTokenizer
+from axolotl.modeling_utils import AutoModelForCausalLM
+from datasets import Dataset
+import torch
+import gc
 
-# if the discourse_units variable is not defined, then we need to load the discourse_units from the file
-if not hasattr(globals(), 'discourse_units'):
-    with open('discourse_units.txt', 'r') as f:
-        discourse_units = f.read().splitlines()
-        
+# Add padding to the tokenizer
+tokenizer.add_special_tokens({'pad_token': '[PAD]'})
 
-# if the chunks variable is not defined, then we need to load the chunks from the file
-if not hasattr(globals(), 'chunks'):
-    with open('chunks.txt', 'r') as f:
-        chunks = f.read().splitlines()
+# Resize the model embeddings to accommodate the new pad_token
+model.resize_token_embeddings(len(tokenizer))
 
+# Create the dataset from chunks
 dataset = Dataset.from_dict({'text': chunks})
 
 def tokenize_function(examples):
     result = tokenizer(
         examples['text'],
-        max_length=1024,
-        padding='max_length',  # This requires pad_token to be set
+        max_length=512,  # Reduced max_length to create more chunks
+        padding='max_length',  # Now possible since pad_token is set
         truncation=True,
         return_overflowing_tokens=False,
     )
@@ -301,12 +302,20 @@ def tokenize_function(examples):
     
     return result
 
+# Tokenize the dataset
 tokenized_dataset = dataset.map(
     tokenize_function,
     batched=True,
-    num_proc=16,  # Adjusted based on CPU cores
+    num_proc=16,  # Adjust based on CPU cores
     remove_columns=['text'],
 )
+
+# Check the number of samples before splitting to avoid errors
+if len(tokenized_dataset) < 10:
+    raise ValueError(
+        f"Not enough samples ({len(tokenized_dataset)}) to perform train-test split with test_size=0.1. "
+        "Please ensure your dataset has at least 10 samples or adjust the test_size parameter."
+    )
 
 # Split the dataset into training and validation sets
 split = tokenized_dataset.train_test_split(test_size=0.1, seed=42)
@@ -319,15 +328,15 @@ torch.cuda.empty_cache()
 gc.collect()
 
 # ----------------------------- #
-# Part 7: Configure Training Arguments
+# Part 7: Configure Training Arguments using Axolotl
 # ----------------------------- #
 
-# Create DeepSpeed configuration file programmatically if needed
+# Create DeepSpeed configuration file programmatically
 deepspeed_config = {
-    "train_batch_size": 32,
+    "train_batch_size": "auto",
     "gradient_accumulation_steps": 2,
     "fp16": {
-        "enabled": True,
+        "enabled": "auto",
         "loss_scale": 0,
         "initial_scale_power": 16
     },
@@ -363,8 +372,9 @@ with open('deepspeed_config.json', 'w') as f:
     import json
     json.dump(deepspeed_config, f, indent=2)
 
-# Initialize TrainingArguments
-training_args = TrainingArguments(
+
+# Initialize AxolotlTrainingArguments
+training_args = AxolotlTrainingArguments(
     output_dir='./meta-llama-3.1-8b-finetuned',
     overwrite_output_dir=True,
     num_train_epochs=3,
@@ -375,8 +385,8 @@ training_args = TrainingArguments(
     logging_dir='./logs',
     logging_steps=50,  # Reduced logging frequency
     save_total_limit=2,
-    fp16=True,  # Disabled FP16 as using BF16
-    bf16=False,    # Enabled BF16
+    fp16=False,  # Disabled FP16 as using BF16
+    bf16=True,    # Enabled BF16
     optim='adamw_hf',  # Changed to a more compatible optimizer
     save_strategy='steps',
     save_steps=500,  # Save every 500 steps
@@ -390,8 +400,6 @@ training_args = TrainingArguments(
     dataloader_num_workers=16,  # Optimized number of workers
     deepspeed="deepspeed_config.json",  # Integrate DeepSpeed
 )
-# login to wandb
-wandb.login(key='0123456789abcdef0123456789abcdef')
 
 # Initialize Weights & Biases after TrainingArguments
 wandb.init(
@@ -418,7 +426,7 @@ def compute_metrics(eval_pred):
     return {"perplexity": perplexity}
 
 # ----------------------------- #
-# Part 9: Initialize and Start Training
+# Part 9: Initialize and Start Training using Axolotl
 # ----------------------------- #
 
 def main():
@@ -429,8 +437,8 @@ def main():
     )
     logger = logging.getLogger(__name__)
 
-    # Initialize Trainer
-    trainer = Trainer(
+    # Initialize AxolotlTrainer
+    trainer = AxolotlTrainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
@@ -450,45 +458,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-# ----------------------------- #
-# Part 10: Inference Section
-# ----------------------------- #
-
-# Inference Time
-def inference():
-    def display_nvidia_smi():
-        try:
-            result = subprocess.check_output(['nvidia-smi'], universal_newlines=True)
-            print(result)
-        except Exception as e:
-            print(f"Error running nvidia-smi: {e}")
-
-    display_nvidia_smi()
-
-    # Load the tokenizer and model with bf16
-    tokenizer = AutoTokenizer.from_pretrained('./meta-llama-3.1-8b-finetuned')
-    model = AutoModelForCausalLM.from_pretrained(
-        './meta-llama-3.1-8b-finetuned',
-        torch_dtype=torch.bfloat16,
-        device_map="auto",
-    )
-    
-    # Define a sample prompt
-    prompt = "How are you doing?"
-    
-    # Tokenize the prompt
-    inputs = tokenizer(prompt, return_tensors='pt').to('cuda')
-    
-    # Generate outputs
-    with torch.no_grad():
-        outputs = model.generate(**inputs, max_length=100)
-    
-    # Decode and print the generated text
-    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    print(generated_text)
-
-# Uncomment the following line to run inference after training
-# inference()
-

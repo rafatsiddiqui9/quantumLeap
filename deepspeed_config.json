@@ -1,8 +1,8 @@
 {
-  "train_batch_size": 32,
+  "train_batch_size": "auto",
   "gradient_accumulation_steps": 2,
   "fp16": {
-    "enabled": true,
+    "enabled": "auto",
     "loss_scale": 0,
     "initial_scale_power": 16
   },
