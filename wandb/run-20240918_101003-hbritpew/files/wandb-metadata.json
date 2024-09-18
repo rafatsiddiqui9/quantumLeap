@@ -1,0 +1,42 @@
+{
+  "os": "Linux-5.15.0-119-generic-x86_64-with-glibc2.35",
+  "python": "3.12.5",
+  "startedAt": "2024-09-18T10:10:03.547226Z",
+  "program": "/root/quantumLeap/quantumLeap-unsloth-final.ipynb",
+  "git": {
+    "remote": "https://githomein:@github.com/githomein/quantumLeap.git",
+    "commit": "6ab2a04c17f6bf1ea505ef444eebbb83356e775d"
+  },
+  "email": "olabs.asia@gmail.com",
+  "root": "/root/quantumLeap",
+  "host": "kpod-3c0dc62c-414c-4250-9a84-897ef9c35c67",
+  "username": "root",
+  "executable": "/root/miniconda/envs/olabs/bin/python",
+  "codePathLocal": "quantumLeap-unsloth-final.ipynb",
+  "cpu_count": 96,
+  "cpu_count_logical": 192,
+  "gpu": "[NVIDIA H100 80GB HBM3]",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "7557149999104",
+      "used": "171269103616"
+    }
+  },
+  "memory": {
+    "total": "2164106518528"
+  },
+  "cpu": {
+    "count": 96,
+    "countLogical": 192
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA H100 80GB HBM3",
+      "memoryTotal": "85520809984",
+      "cudaCores": 16896,
+      "architecture": "Hopper"
+    }
+  ],
+  "cudaVersion": "12.6"
+}
