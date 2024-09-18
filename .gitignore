@@ -2,3 +2,6 @@
 !.gitignore
 _unsloth_temporary_saved_buffers/
 outputs/
+qLeap_model_base_v0_1726654809/
+qLeap_model_base_v0_1726654817/
+wandb/
