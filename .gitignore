@@ -1,0 +1,12 @@
+.*
+!.gitignore
+_unsloth_temporary_saved_buffers/
+outputs/
+qLeap_model_base_v0_1726654809/
+qLeap_model_base_v0_1726654817/
+wandb/
+lora_model/
+data/
+__pycache__/
+lora_model_pum/
+lora_model_pum/
