@@ -13,3 +13,4 @@ lora_model_pum_instruct/
 unsloth_base_gguf/
 unsloth_instruct_gguf/
 __pycache__/
+lora_model_instruct/
