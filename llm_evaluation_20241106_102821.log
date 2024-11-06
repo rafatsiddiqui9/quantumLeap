@@ -1,0 +1,17 @@
+2024-11-06 04:58:21,299 - INFO - Successfully loaded 50 questions from CSV
+2024-11-06 04:58:21,300 - INFO - Starting evaluation for model: hf.co/bartowski/Phi-3-medium-128k-instruct-GGUF:Q3_K_S
+2024-11-06 04:58:31,301 - INFO - Started model: hf.co/bartowski/Phi-3-medium-128k-instruct-GGUF:Q3_K_S
+2024-11-06 04:58:31,303 - INFO - Processing Question 1
+2024-11-06 04:58:31,306 - ERROR - Error querying model hf.co/bartowski/Phi-3-medium-128k-instruct-GGUF:Q3_K_S: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa61a5431d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-06 04:58:33,310 - INFO - Processing Question 2
+2024-11-06 04:58:33,312 - ERROR - Error querying model hf.co/bartowski/Phi-3-medium-128k-instruct-GGUF:Q3_K_S: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa619c32c30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-06 04:58:35,315 - INFO - Processing Question 3
+2024-11-06 04:58:35,317 - ERROR - Error querying model hf.co/bartowski/Phi-3-medium-128k-instruct-GGUF:Q3_K_S: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa619c334a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-06 04:58:37,319 - INFO - Processing Question 4
+2024-11-06 04:58:37,321 - ERROR - Error querying model hf.co/bartowski/Phi-3-medium-128k-instruct-GGUF:Q3_K_S: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa619c33d70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-06 04:58:39,324 - INFO - Processing Question 5
+2024-11-06 04:58:39,326 - ERROR - Error querying model hf.co/bartowski/Phi-3-medium-128k-instruct-GGUF:Q3_K_S: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa619c8c710>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-06 04:58:41,329 - INFO - Processing Question 6
+2024-11-06 04:58:41,331 - ERROR - Error querying model hf.co/bartowski/Phi-3-medium-128k-instruct-GGUF:Q3_K_S: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa619c32ed0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-06 04:58:43,334 - INFO - Processing Question 7
+2024-11-06 04:58:43,335 - ERROR - Error querying model hf.co/bartowski/Phi-3-medium-128k-instruct-GGUF:Q3_K_S: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa619c32ba0>: Failed to establish a new connection: [Errno 111] Connection refused'))
