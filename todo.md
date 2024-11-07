@@ -11,8 +11,15 @@
     - hf.co/bartowski/Phi-3-medium-128k-instruct-GGUF:Q3_K_S                 74f8ad8b9698    6.1 GB    21 hours ago    
     - hf.co/RichardErkhov/princeton-nlp_-_gemma-2-9b-it-SimPO-gguf:Q4_K_M    016add2b142a    5.8 GB    22 hours ago 
 
+- Test the following methods"
+    - dspy
+    - textgrad
+
+
 - Future Upgrades
     - Distillate Nemotron Model to fit in 8GB VRAM Macbook Air M1 2020
 
 - Inference
     - Research on extremely fast inference techniques
+        - llamafile
+        - 
