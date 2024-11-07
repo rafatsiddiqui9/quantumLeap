@@ -13,7 +13,7 @@
 
 - Important Tasks
     - Base Training
-        - **Forgot previous instructions**
+        - **Forgot previous instructions Though even the original model does this**
         - Repetition
         - Not stopping
         - Hallucination
