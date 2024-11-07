@@ -12,14 +12,33 @@
     - hf.co/RichardErkhov/princeton-nlp_-_gemma-2-9b-it-SimPO-gguf:Q4_K_M    016add2b142a    5.8 GB    22 hours ago 
 
 - Test the following methods"
-    - dspy
-    - textgrad
-
-
-- Future Upgrades
-    - Distillate Nemotron Model to fit in 8GB VRAM Macbook Air M1 2020
+    - Base Training
+    - Instruction Tuning
+    - Dataset
+        - Augmentoolkit
+    - Prompt Engineering
+        - dspy
+        - textgrad
+    - RAG
+        - Microsoft GraphRAG
+        - LightRAG
+        - Latest in GraphRAG
 
 - Inference
     - Research on extremely fast inference techniques
         - llamafile
-        - 
+        - SGLang
+
+- Future Upgrades
+    - Distillate Nemotron Model to fit in 8GB VRAM Macbook Air M1 2020
+    - Router LLMs for creating better prompts before being fed into the main model
+
+
+================================================================================================================================================================================================================================================================================================
+- Inspiration for other projects
+    - Dataset Curation
+    - STT
+    - TTS
+    - Image Generation
+    - Code Generation
+    - Chatbot
