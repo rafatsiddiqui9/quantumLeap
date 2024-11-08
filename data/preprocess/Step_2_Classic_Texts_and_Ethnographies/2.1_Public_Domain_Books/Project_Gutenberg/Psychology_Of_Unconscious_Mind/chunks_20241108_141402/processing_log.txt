@@ -1,0 +1,19 @@
+[2024-11-08 14:14:02] Starting text processing
+[2024-11-08 14:14:02] Created 71 initial chunks
+[2024-11-08 14:14:02] Processing chunk 1/71
+[2024-11-08 14:14:03] Error in LLM request: Connection error.
+[2024-11-08 14:14:04] Processing chunk 2/71
+[2024-11-08 14:14:05] Error in LLM request: Connection error.
+[2024-11-08 14:14:06] Processing chunk 3/71
+[2024-11-08 14:14:08] Error in LLM request: Connection error.
+[2024-11-08 14:14:09] Processing chunk 4/71
+[2024-11-08 14:14:10] Error in LLM request: Connection error.
+[2024-11-08 14:14:11] Processing chunk 5/71
+[2024-11-08 14:14:12] Error in LLM request: Connection error.
+[2024-11-08 14:14:13] Processing chunk 6/71
+[2024-11-08 14:14:14] Error in LLM request: Connection error.
+[2024-11-08 14:14:16] Processing chunk 7/71
+[2024-11-08 14:14:17] Error in LLM request: Connection error.
+[2024-11-08 14:14:18] Processing chunk 8/71
+[2024-11-08 14:14:19] Error in LLM request: Connection error.
+[2024-11-08 14:14:20] Processing chunk 9/71

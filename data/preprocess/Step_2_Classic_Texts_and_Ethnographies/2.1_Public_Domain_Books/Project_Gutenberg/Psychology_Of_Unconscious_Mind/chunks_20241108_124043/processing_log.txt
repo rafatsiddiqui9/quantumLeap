@@ -1,0 +1,3 @@
+[2024-11-08 12:40:43] Starting text processing
+[2024-11-08 12:40:43] Created 71 initial chunks
+[2024-11-08 12:40:43] Processing chunk 1/71

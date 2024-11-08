@@ -1,0 +1,10 @@
+[2024-11-08 12:41:59] Starting text processing
+[2024-11-08 12:41:59] Created 71 initial chunks
+[2024-11-08 12:41:59] Processing chunk 1/71
+[2024-11-08 12:41:59] Error processing chunk: '\n    "sections"'
+[2024-11-08 12:42:00] Processing chunk 2/71
+[2024-11-08 12:42:00] Error processing chunk: '\n    "sections"'
+[2024-11-08 12:42:01] Processing chunk 3/71
+[2024-11-08 12:42:01] Error processing chunk: '\n    "sections"'
+[2024-11-08 12:42:02] Processing chunk 4/71
+[2024-11-08 12:42:02] Error processing chunk: '\n    "sections"'
