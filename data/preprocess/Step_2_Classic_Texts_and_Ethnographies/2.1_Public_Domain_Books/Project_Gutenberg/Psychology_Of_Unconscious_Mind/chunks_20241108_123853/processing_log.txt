@@ -1,2 +1,0 @@
-[2024-11-08 12:38:53] Starting text processing
-[2024-11-08 12:38:53] Processing chunk 1 (2908 tokens)

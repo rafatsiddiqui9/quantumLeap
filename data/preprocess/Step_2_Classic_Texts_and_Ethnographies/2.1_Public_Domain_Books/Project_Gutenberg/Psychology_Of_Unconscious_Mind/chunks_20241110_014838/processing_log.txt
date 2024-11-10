@@ -1,8 +1,0 @@
-[2024-11-10 01:48:38] Starting text processing
-[2024-11-10 01:48:38] Created 71 initial chunks
-[2024-11-10 01:48:38] Processing chunk 1/71
-[2024-11-10 01:48:39] Error in LLM request: Connection error.
-[2024-11-10 01:48:40] Processing chunk 2/71
-[2024-11-10 01:48:42] Error in LLM request: Connection error.
-[2024-11-10 01:48:43] Processing chunk 3/71
-[2024-11-10 01:48:44] Error in LLM request: Connection error.

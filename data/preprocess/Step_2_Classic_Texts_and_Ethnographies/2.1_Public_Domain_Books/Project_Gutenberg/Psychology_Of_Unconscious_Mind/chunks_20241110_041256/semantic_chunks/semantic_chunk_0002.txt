@@ -1,3 +1,0 @@
-The Oedipus problem has been used to illustrate the difficulties of self-reference and the liar paradox. It has also been used to demonstrate the importance of distinguishing between different types of statements, such as statements about the truth or falsity of other statements.
-
-In the context of logic and mathematics, the Oedipus problem has been used to develop new theories and techniques for dealing with self-referential statements. For example, the theory of truth in modal logic provides a way to resolve the paradox by distinguishing between different modalities, such as necessity and possibility.

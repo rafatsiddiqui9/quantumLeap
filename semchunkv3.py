@@ -1,15 +1,15 @@
+import tiktoken
+import openai
 import json
 import time
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Optional
+import numpy as np
 import os
 from datetime import datetime
 from pprint import pprint
 import re
 from dataclasses import dataclass
 from enum import Enum
-
-from transformers import AutoTokenizer
-import openai  # Ensure this is configured correctly for vLLM
 
 # Add these new data structures after imports
 class SectionType(Enum):
@@ -30,22 +30,23 @@ class Section:
 
 
 class SemanticChunker:
-    def __init__(self, model_name: str = "meta-llama/Llama-3.2-3B-Instruct", max_tokens: int = 3000):
+    def __init__(self, model_name: str = "gpt-3.5-turbo", max_tokens: int = 3000):
         """Initialize the semantic chunker with model configuration"""
-        # Initialize Llama tokenizer
-        try:
-            self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        except Exception as e:
-            raise ValueError(f"Error loading tokenizer for {model_name}: {e}")
+        # Initialize OpenAI client with proper configuration
+        openai_api_key = os.getenv("OPENAI_API_KEY")
+        if not openai_api_key:
+            raise ValueError("OpenAI API key not found. Please set the OPENAI_API_KEY environment variable.")
+        
+        openai.api_key = openai_api_key
         
         self.model_name = model_name
-        self.max_tokens = max_tokens
+        try:
+            self.encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
+        except Exception as e:
+            print(f"Error initializing tiktoken: {e}")
+            self.encoding = tiktoken.get_encoding("gpt-3.5-turbo")
         
-        # Set up OpenAI client for vLLM
-        self.client = openai.OpenAI(
-            base_url="http://localhost:8000/v1",
-            api_key="dummy"  # Ensure this is correctly set or removed if not needed
-        )
+        self.max_tokens = max_tokens
         
         # Set up logging directory with timestamp
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -59,7 +60,7 @@ class SemanticChunker:
         self.missed_text = ""  # Store text not included in LLM output
         
         self.log_message("SemanticChunker initialized.")
-    
+
     def log_message(self, message: str):
         """Write log message with timestamp and print to console"""
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -76,9 +77,9 @@ class SemanticChunker:
             print('='*100)
     
     def count_tokens(self, text: str) -> int:
-        """Count tokens in text using LlamaTokenizer"""
+        """Count tokens in text using tiktoken"""
         try:
-            return len(self.tokenizer.encode(text))
+            return len(self.encoding.encode(text))
         except Exception as e:
             self.log_message(f"Error counting tokens: {e}")
             return 0
@@ -296,7 +297,7 @@ class SemanticChunker:
                 while start > 0 and ' '.join(words[start-1:i+window_size]) not in output_normalized:
                     start -= 1
                 end = i + window_size
-                while end < len(words) and ' '.join(words[i:end+1]) not in output_normalized:
+                while end < len(words) and ' '.join(words[start:end+1]) not in output_normalized:
                     end += 1
                 missing_sequences.append(' '.join(words[start:end]))
                 i = end
@@ -352,7 +353,7 @@ class SemanticChunker:
         try:
             self.log_message(f"Sending request to LLM (input tokens: {self.count_tokens(chunk)})")
             
-            response = self.client.chat.completions.create(
+            response = openai.ChatCompletion.create(
                 model=self.model_name,
                 messages=[
                     {

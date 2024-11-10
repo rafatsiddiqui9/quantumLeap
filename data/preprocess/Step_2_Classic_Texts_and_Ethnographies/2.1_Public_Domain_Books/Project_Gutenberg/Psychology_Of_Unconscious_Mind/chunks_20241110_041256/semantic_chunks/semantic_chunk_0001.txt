@@ -1,5 +1,0 @@
-THE OEDIPUS PROBLEM
-
-The Oedipus problem is a classic paradox in logic and philosophy, first described by the ancient Greek philosopher Epimenides. It goes as follows:
-
-A Cretan says, "All Cretans are liars." If the Cretan is telling the truth, then he must be a liar, since he is a Cretan. But if he is a liar, then he must be telling the truth, since he is a Cretan and all Cretans are liars. This creates an infinite loop of contradictions.
