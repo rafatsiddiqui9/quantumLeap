@@ -13,7 +13,7 @@
 
 - Important Tasks
     - Base Training
-        - **Forgot previous instructions Though even the original model does this**
+        - **Forgot previous instructions though even the original model does this**
         - Repetition
         - Not stopping
         - Hallucination
@@ -22,7 +22,10 @@
     - Instruction Tuning
     - Dataset
         - Augmentoolkit
+            - Use bigger model
+            - Try different prompt engineering techniques
         - Semantic Chunking vs Chapter-wise
+        - Current implementation sliding window with minimal overlap
     - Prompt Engineering
         - dspy
         - textgrad
