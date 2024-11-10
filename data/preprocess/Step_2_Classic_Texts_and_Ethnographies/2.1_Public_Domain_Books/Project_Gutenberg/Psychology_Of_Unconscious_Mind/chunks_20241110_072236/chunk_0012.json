@@ -1,0 +1,19 @@
+{
+  "chunk_number": 12,
+  "original_text": "                                PART II\n\n\n                               CHAPTER I\n\n\n                         ASPECTS OF THE LIBIDO\n",
+  "semantic_sections": [],
+  "missed_text": "PART II CHAPTER I ASPECTS OF THE LIBIDO",
+  "metrics": {
+    "completion_tokens": 39,
+    "prompt_tokens": 262,
+    "total_tokens": 301,
+    "finish_reason": "stop",
+    "sections_created": 0,
+    "has_missed_text": true
+  },
+  "token_counts": {
+    "input": 17,
+    "sections": [],
+    "missed": 11
+  }
+}
