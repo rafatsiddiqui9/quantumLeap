@@ -16,4 +16,6 @@ __pycache__/
 lora_model_instruct/
 models/
 quantumLeap/models/
-!augmentoolkit
+!augmentoolkit/
+!augmentoolkit/**  # To include all nested files and directories within augmentoolkit
+
