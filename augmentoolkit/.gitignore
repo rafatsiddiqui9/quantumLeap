@@ -1,0 +1,30 @@
+.DS_Store
+**/*.pyc
+# output*
+hidden*
+log.txt
+# output
+**/simplified_data*
+**/*split_1.json
+**/*split_2.json
+**/pretraining.json
+**/pretraining.jsonl
+classifier_output*
+wandb
+utils_for_manual_use/classifier_backtesting/place_classification_dataset_here/*
+utils_for_manual_use/classifier_backtesting/place_classifier_folder_here/*
+bfg-report
+..bfg-report
+bfg-1.14.0.jar
+imdb
+utils_for_manual_use/classifier_backtesting/predicted_output.jsonl
+annotation_output*/*
+utils_for_manual_use/video_work_folder/*
+editing_output/*
+website_output*
+website_scrape*
+twitter_data.*
+_model_training_configs/autometa*
+_model_training_configs/intelorca*
+editing_output*
+**/*EIGHTY_SIX*.txt
