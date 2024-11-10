@@ -1,0 +1,18 @@
+[2024-11-10 06:28:36] Starting text processing
+[2024-11-10 06:28:36] Created 121 initial chunks
+[2024-11-10 06:28:36] Processing limited to first 5 chunks
+[2024-11-10 06:28:36] Processing chunk 1/5
+[2024-11-10 06:28:36] Sending request to LLM (input tokens: 9)
+[2024-11-10 06:29:00] Found missed text (8 tokens)
+[2024-11-10 06:29:01] Processing chunk 2/5
+[2024-11-10 06:29:01] Sending request to LLM (input tokens: 20)
+[2024-11-10 06:29:02] Processing chunk 3/5
+[2024-11-10 06:29:02] Sending request to LLM (input tokens: 2881)
+[2024-11-10 06:29:02] Error in LLM request: Error code: 400 - {'object': 'error', 'message': "This model's maximum context length is 4000 tokens. However, you requested 6071 tokens (3071 in the messages, 3000 in the completion). Please reduce the length of the messages or completion.", 'type': 'BadRequestError', 'param': None, 'code': 400}
+[2024-11-10 06:29:03] Processing chunk 4/5
+[2024-11-10 06:29:03] Sending request to LLM (input tokens: 1877)
+[2024-11-10 06:29:03] Error in LLM request: Error code: 400 - {'object': 'error', 'message': "This model's maximum context length is 4000 tokens. However, you requested 5068 tokens (2068 in the messages, 3000 in the completion). Please reduce the length of the messages or completion.", 'type': 'BadRequestError', 'param': None, 'code': 400}
+[2024-11-10 06:29:04] Processing chunk 5/5
+[2024-11-10 06:29:04] Sending request to LLM (input tokens: 9)
+[2024-11-10 06:29:09] Processing complete. Total semantic chunks created: 2
+[2024-11-10 06:29:09] Saved 2 semantic chunks to /home/ubuntu/quantumLeap/data/preprocess/Step_2_Classic_Texts_and_Ethnographies/2.1_Public_Domain_Books/Project_Gutenberg/Psychology_Of_Unconscious_Mind/chunks_20241110_062836/semantic_chunks

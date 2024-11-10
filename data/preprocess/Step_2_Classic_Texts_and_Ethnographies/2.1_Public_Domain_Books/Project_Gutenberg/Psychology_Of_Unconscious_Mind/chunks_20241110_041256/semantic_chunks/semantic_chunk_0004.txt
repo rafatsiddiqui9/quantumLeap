@@ -1,0 +1,5 @@
+Some possible solutions to the Oedipus problem include:
+
+* The theory of truth in modal logic, which distinguishes between different modalities and provides a way to resolve the paradox.
+* The theory of truth as a fixed point, which defines truth in terms of a fixed point that is not affected by self-reference.
+* The theory of truth as a matter of convention, which defines truth in terms of social or cultural norms.

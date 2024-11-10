@@ -1,0 +1,19 @@
+[2024-11-10 06:37:48] 
+Processing chunk 1
+[2024-11-10 06:37:48] Starting get_complete_paragraphs with 728 chars of text
+[2024-11-10 06:37:48] Found 5 sections
+[2024-11-10 06:37:48] Processing section 1: SectionType.HEADER, 5 tokens
+[2024-11-10 06:37:48] After processing: current_tokens=79, max_tokens=3000
+[2024-11-10 06:37:48] Processing section 3: SectionType.HEADER, 4 tokens
+[2024-11-10 06:37:48] After processing: current_tokens=117, max_tokens=3000
+[2024-11-10 06:37:48] Processing section 5: SectionType.HEADER, 18 tokens
+[2024-11-10 06:37:48] After processing: current_tokens=135, max_tokens=3000
+[2024-11-10 06:37:48] Completed processing: 5 sections processed, 0 remaining
+[2024-11-10 06:37:48] Created chunk 1 with 135 tokens
+[2024-11-10 06:37:48] Chunk 1 preview:
+                             AUTHOR'S NOTE
+
+My task in this work has been to investigate an individual phantasy
+system, and in the doing of it problems of such magnitude have been
+uncovered, that my e...
+[2024-11-10 06:37:48] Created 1 initial chunks

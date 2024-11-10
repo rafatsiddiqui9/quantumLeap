@@ -1,0 +1,380 @@
+[2024-11-10 04:06:32] Starting text processing
+[2024-11-10 04:06:32] 
+Processing chunk 1
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845623 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 2
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 3
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 4
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 5
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 6
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 7
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 8
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 9
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 10
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 11
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 12
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 13
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 14
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:32] Found 84 sections
+[2024-11-10 04:06:32] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:32] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:32] Processed text preview: ...
+[2024-11-10 04:06:32] Warning: Empty chunk produced
+[2024-11-10 04:06:32] 
+Processing chunk 15
+[2024-11-10 04:06:32] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 16
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 17
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 18
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 19
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 20
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 21
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 22
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 23
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 24
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 25
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 26
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 27
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 28
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 29
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:33] Found 84 sections
+[2024-11-10 04:06:33] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:33] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:33] Processed text preview: ...
+[2024-11-10 04:06:33] Warning: Empty chunk produced
+[2024-11-10 04:06:33] 
+Processing chunk 30
+[2024-11-10 04:06:33] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 31
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 32
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 33
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 34
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 35
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 36
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 37
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 38
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 39
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 40
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 41
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 42
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 43
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 44
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:34] Found 84 sections
+[2024-11-10 04:06:34] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:34] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:34] Processed text preview: ...
+[2024-11-10 04:06:34] Warning: Empty chunk produced
+[2024-11-10 04:06:34] 
+Processing chunk 45
+[2024-11-10 04:06:34] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:35] Found 84 sections
+[2024-11-10 04:06:35] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:35] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:35] Processed text preview: ...
+[2024-11-10 04:06:35] Warning: Empty chunk produced
+[2024-11-10 04:06:35] 
+Processing chunk 46
+[2024-11-10 04:06:35] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:35] Found 84 sections
+[2024-11-10 04:06:35] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:35] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:35] Processed text preview: ...
+[2024-11-10 04:06:35] Warning: Empty chunk produced
+[2024-11-10 04:06:35] 
+Processing chunk 47
+[2024-11-10 04:06:35] Starting get_complete_paragraphs with 845570 chars of text
+[2024-11-10 04:06:35] Found 84 sections
+[2024-11-10 04:06:35] Processing section 1: SectionType.CONTENT, 4787 tokens
+[2024-11-10 04:06:35] Completed processing: 0 sections included, 84 remaining
+[2024-11-10 04:06:35] Processed text preview: ...
+[2024-11-10 04:06:35] Warning: Empty chunk produced
+[2024-11-10 04:06:35] 
+Processing chunk 48
+[2024-11-10 04:06:35] Starting get_complete_paragraphs with 845570 chars of text

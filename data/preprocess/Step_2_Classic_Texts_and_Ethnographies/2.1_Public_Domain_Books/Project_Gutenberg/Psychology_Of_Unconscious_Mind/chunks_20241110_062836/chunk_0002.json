@@ -1,0 +1,23 @@
+{
+  "chunk_number": 2,
+  "original_text": "\n       AN INTRODUCTION TO PSYCHOANALYSIS AND ANALYTIC PSYCHOLOGY",
+  "semantic_sections": [
+    "AN INTRODUCTION TO PSYCHOANALYSIS AND ANALYTIC PSYCHOLOGY\n</START_SECTION>"
+  ],
+  "missed_text": "Psychology of the Unconscious by Jung",
+  "metrics": {
+    "completion_tokens": 32,
+    "prompt_tokens": 210,
+    "total_tokens": 242,
+    "finish_reason": "stop",
+    "sections_created": 1,
+    "has_missed_text": true
+  },
+  "token_counts": {
+    "input": 20,
+    "sections": [
+      23
+    ],
+    "missed": 8
+  }
+}

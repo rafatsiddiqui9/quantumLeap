@@ -1,0 +1,33 @@
+{
+  "chunk_number": 2,
+  "original_text": "                          THE OEDIPUS PROBLEM\n",
+  "semantic_sections": [
+    "THE OEDIPUS PROBLEM\n\nThe Oedipus problem is a classic tale in ancient Greek literature, as told in the tragic play Oedipus Rex by Sophocles. The story revolves around the life of Oedipus, a king of Thebes, and his tragic downfall.",
+    "Causes of the Oedipus Problem\n\nThe Oedipus problem arises from a series of events that unfold in a complex and intricate manner. According to the myth, Oedipus was born to King Laius and Queen Jocasta of Thebes. However, their son was prophesied to kill his father and marry his mother, which led to the couple abandoning the child in the forest.",
+    "The Discovery of the Truth\n\nAs Oedipus grew up, he encountered various challenges and obstacles. He eventually became the king of Thebes and married Jocasta, unaware of his true parentage. The truth about his past was eventually revealed when a plague struck Thebes, and Oedipus consulted the oracle at Delphi. The oracle told him that the plague would end when the murderer of Laius was found and punished.",
+    "The Reveal of Oedipus' True Identity\n\nOedipus sent his brother-in-law, Creon, to find the murderer of Laius. Creon discovered Oedipus and Laius on the road to Corinth, where they were trying to kill each other. However, Oedipus intervened and saved Laius' life. This event led to the prophecy that Oedipus would kill his father and marry his mother.",
+    "The Consequences of the Oedipus Problem\n\nThe revelation of Oedipus' true identity led to a series of tragic events. Oedipus realized that he had unknowingly fulfilled the prophecy and killed his father. He also discovered that he had married his mother, Jocasta. The truth was too much for Oedipus to bear, and he blinded himself in grief.",
+    "The Legacy of the Oedipus Problem\n\nThe Oedipus problem has been a subject of interest and study for centuries. It explores themes of fate, free will, and the human condition. The story has been retold and reinterpreted in various forms of art and literature, and continues to be a relevant and thought-provoking tale."
+  ],
+  "missed_text": "",
+  "metrics": {
+    "completion_tokens": 602,
+    "prompt_tokens": 205,
+    "total_tokens": 807,
+    "finish_reason": "stop",
+    "sections_created": 6,
+    "has_missed_text": false
+  },
+  "token_counts": {
+    "input": 9,
+    "sections": [
+      62,
+      85,
+      90,
+      95,
+      81,
+      71
+    ],
+    "missed": 0
+  }
+}

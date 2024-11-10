@@ -1,0 +1,10 @@
+[2024-11-10 06:37:00] Starting get_complete_paragraphs with 728 chars of text
+[2024-11-10 06:37:00] Found 5 sections
+[2024-11-10 06:37:00] Processing section 1: SectionType.HEADER, 5 tokens
+[2024-11-10 06:37:00] After processing: current_tokens=79, max_tokens=3000
+[2024-11-10 06:37:00] Processing section 3: SectionType.HEADER, 4 tokens
+[2024-11-10 06:37:00] After processing: current_tokens=117, max_tokens=3000
+[2024-11-10 06:37:00] Processing section 5: SectionType.HEADER, 18 tokens
+[2024-11-10 06:37:00] After processing: current_tokens=135, max_tokens=3000
+[2024-11-10 06:37:00] Completed processing: 5 sections processed, 0 remaining
+[2024-11-10 06:37:00] Created 1 initial chunks
