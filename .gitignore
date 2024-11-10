@@ -16,4 +16,4 @@ __pycache__/
 lora_model_instruct/
 models/
 quantumLeap/models/
-!augmentoolkit/
+!augmentoolkit
