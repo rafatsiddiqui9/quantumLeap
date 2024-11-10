@@ -1,0 +1,14 @@
+{
+  "timestamp": "2024-11-10T01:37:11.741256",
+  "input_file": "/home/ubuntu/quantumLeap/data/input/Step_2_Classic_Texts_and_Ethnographies/2.1_Public_Domain_Books/Project_Gutenberg/psychology_of_unconscious.txt",
+  "input_stats": {
+    "chars": 845582,
+    "tokens": 199657
+  },
+  "output_stats": {
+    "total_chunks": 0,
+    "total_tokens": 0,
+    "avg_chunk_size": 0
+  },
+  "output_directory": "/home/ubuntu/quantumLeap/data/preprocess/Step_2_Classic_Texts_and_Ethnographies/2.1_Public_Domain_Books/Project_Gutenberg/Psychology_Of_Unconscious_Mind/chunks_20241110_013708/semantic_chunks"
+}
