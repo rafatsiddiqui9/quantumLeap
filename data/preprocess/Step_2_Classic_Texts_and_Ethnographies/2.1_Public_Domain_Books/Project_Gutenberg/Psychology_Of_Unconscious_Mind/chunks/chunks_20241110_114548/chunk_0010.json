@@ -1,0 +1,23 @@
+{
+  "chunk_number": 10,
+  "original_text": "                               CHAPTER IV\n\n\n                          THE SONG OF THE MOTH\n",
+  "semantic_sections": [
+    "<INCOMPLETE>\n\nThe Song of the Moth is a short story by American author Kate Chopin, first published in 1894. It is one of her most famous works and is considered a classic of American literature. The story revolves around the life of a moth, its struggles, and its ultimate sacrifice. The narrative is told from the perspective of a young girl who observes the moth's life cycle and its tragic end.\n\n\nThe story begins with the description of a moth's life cycle, from its birth to its death. The moth is described as a symbol of freedom and beauty, and its life is portrayed as a struggle for survival. The moth is drawn to a flame, which represents the destructive forces of life, and ultimately dies in the process.\n\n\nThe story also explores the theme of love and sacrifice. The moth's love for the flame is portrayed as a selfless and noble act, and its sacrifice is seen as a symbol of the ultimate price of love. The story raises questions about the nature of love and sacrifice, and whether the moth's actions are justified.\n\n\nThe story ends with the young girl's reflection on the moth's life and death. She realizes that the moth's sacrifice was not in vain, and that its life was worth living. The story concludes with a sense of hope and renewal, as the girl looks forward to the future and the possibility of new life."
+  ],
+  "missed_text": "CHAPTER IV THE SONG OF THE MOTH",
+  "metrics": {
+    "completion_tokens": 307,
+    "prompt_tokens": 258,
+    "total_tokens": 565,
+    "finish_reason": "stop",
+    "sections_created": 1,
+    "has_missed_text": true
+  },
+  "token_counts": {
+    "input": 13,
+    "sections": [
+      279
+    ],
+    "missed": 9
+  }
+}

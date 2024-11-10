@@ -1,0 +1,31 @@
+{
+  "chunk_number": 24,
+  "original_text": "                              CHAPTER VII\n\n\n                          THE DUAL MOTHER RÔLE\n",
+  "semantic_sections": [
+    "CHAPTER VII\n\nTHE DUAL MOTHER RÔLE\n\n\n</START_SECTION>",
+    "<INCOMPLETE>\n\nThe dual mother role is a concept in psychoanalysis that suggests that a woman's identity is shaped by two maternal figures: the biological mother and the maternal figure of her childhood. This concept was first introduced by Sigmund Freud in his book \"The Interpretation of Dreams\" in 1900.\n\n\n</INCOMPLETE>",
+    "<INCOMPLETE>\n\nThe dual mother role is often seen as a way to reconcile the contradictions between the biological mother's nurturing instincts and the maternal figure of her childhood, who may have been absent or unresponsive. This conflict can lead to feelings of guilt, anxiety, and insecurity in women.\n\n\n</INCOMPLETE>",
+    "<INCOMPLETE>\n\nThe dual mother role can also be seen in the way women relate to their own children. Some women may identify with the nurturing aspects of their biological mother, while others may identify with the maternal figure of their childhood. This can lead to a sense of disconnection or confusion about one's own maternal role.\n\n\n</INCOMPLETE>",
+    "<INCOMPLETE>\n\nThe concept of the dual mother role has been influential in shaping feminist theory and practice. It has been used to explain the ways in which women are socialized to prioritize others' needs over their own, and to challenge the patriarchal norms that perpetuate this dynamic.\n\n\n</INCOMPLETE>"
+  ],
+  "missed_text": "The dual mother role is a concept in psychoanalysis that suggests that a woman's identity is shaped by two maternal figures: the biological mother and the maternal figure of her childhood. This concept was first introduced by Sigmund Freud in his book \"The Interpretation of Dreams\" in 1900.",
+  "metrics": {
+    "completion_tokens": 325,
+    "prompt_tokens": 259,
+    "total_tokens": 584,
+    "finish_reason": "stop",
+    "sections_created": 5,
+    "has_missed_text": true
+  },
+  "token_counts": {
+    "input": 15,
+    "sections": [
+      17,
+      68,
+      62,
+      69,
+      61
+    ],
+    "missed": 60
+  }
+}

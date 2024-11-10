@@ -1,0 +1,13 @@
+[2024-11-10 11:33:13] SemanticChunker initialized.
+[2024-11-10 11:33:13] Reading input file: /home/ubuntu/quantumLeap/data/input/Step_2_Classic_Texts_and_Ethnographies/2.1_Public_Domain_Books/Project_Gutenberg/psychology_of_unconscious.txt
+[2024-11-10 11:33:13] Input file read successfully. Total tokens: 197314
+[2024-11-10 11:33:14] Starting text processing
+[2024-11-10 11:33:14] Entering create_initial_chunks
+[2024-11-10 11:33:14] Analyzed text structure into 34 sections.
+[2024-11-10 11:33:14] Processed up to section 35
+[2024-11-10 11:33:14] Remaining text token count: 1
+[2024-11-10 11:33:14] Created chunk 1 with 2946 tokens.
+[2024-11-10 11:33:14] Created 1 initial chunks.
+[2024-11-10 11:33:14] Processing limited to first 3 chunks
+[2024-11-10 11:33:14] Processing chunk 1/1
+[2024-11-10 11:33:14] Sending request to LLM (input tokens: 2946)

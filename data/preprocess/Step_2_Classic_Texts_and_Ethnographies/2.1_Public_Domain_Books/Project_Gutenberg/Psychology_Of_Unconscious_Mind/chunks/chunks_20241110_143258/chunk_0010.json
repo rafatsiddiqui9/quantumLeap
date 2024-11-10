@@ -1,0 +1,22 @@
+{
+  "chunk_number": 10,
+  "original_text": "                               CHAPTER IV\n\n\n                          THE SONG OF THE MOTH\n",
+  "semantic_sections": [],
+  "missed_text": "CHAPTER IV THE SONG OF THE MOTH",
+  "metrics": {
+    "completion_tokens": 24,
+    "prompt_tokens": 258,
+    "total_tokens": 282,
+    "finish_reason": "stop",
+    "sections_created": 0,
+    "has_missed_text": true,
+    "redundant_sections": 1,
+    "unprocessed_sections": 8,
+    "total_processed_sections": 0
+  },
+  "token_counts": {
+    "input": 13,
+    "sections": [],
+    "missed": 9
+  }
+}

@@ -34,7 +34,8 @@
 - Inference
     - Research on extremely fast inference techniques
         - llamafile
-        - SGLang
+        - SGLang for long context caching with vLLM
+
 
 - Future Upgrades
     - Distillate Nemotron Model to fit in 8GB VRAM Macbook Air M1 2020
